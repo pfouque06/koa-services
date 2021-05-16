@@ -8,6 +8,12 @@
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "koa-services": [
+        "dist/koa-services/koa-services",
+        "dist/koa-services"
+      ]
+    },
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
